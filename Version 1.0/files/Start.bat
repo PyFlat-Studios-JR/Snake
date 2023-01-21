@@ -7,5 +7,4 @@ echo Running Snake v.1.0
 python Snake.py
 cls
 echo Process terminated
-pause
 exit
