@@ -1,6 +1,5 @@
 from tkinter import *
-import time
-import random
+import time, random, os
 
 master = Tk()
 master.geometry("800x500")
@@ -97,6 +96,7 @@ def on_closing():
     game = False
     master.quit()
     master.destroy()
+    os._exit(0)
 s = Snake_Manager(100,100)
 Apple.ini()
 master.protocol("WM_DELETE_WINDOW", on_closing)   
