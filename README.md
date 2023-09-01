@@ -4,10 +4,8 @@
 - **None**
 
 # Control:
-1. Key: W,A,S,D
-    - Move Up,Left,Down,Right
-2. Key: Space
-    - Pause Game
+1. Movement: WASD & Arrow keys
+2. Pause: Space
 
 # How To Play:
 - It's Snake...
